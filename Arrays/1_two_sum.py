@@ -12,4 +12,5 @@ class Solution:
                 hash_map[target - nums[i]] = i
 
 
+# should return [3, 2]
 print(Solution.twoSum(nums=[3, 5, 7, 8, 1, 2], target=15))
